@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float runSpeed = 5f;
     private Rigidbody2D _myRigidbody;
+    private int _playerScale = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Run();
+        FlipSprite();
     }
 
     private void Run()
@@ -23,5 +26,15 @@ public class Player : MonoBehaviour
         var controlThrow = CrossPlatformInputManager.GetAxis("Horizontal") * runSpeed; // -1 ~ +1
         var playerVelocity = new Vector2(controlThrow, _myRigidbody.velocity.y);
         _myRigidbody.velocity = playerVelocity;
+    }
+
+    private void FlipSprite()
+    {
+        //if the player is moving horizontally, reverse the current scaling of x axis
+        var playerHasHorizontalSpeed = Math.Abs(_myRigidbody.velocity.x) > Mathf.Epsilon;
+        if (playerHasHorizontalSpeed)
+        {
+            transform.localScale = new Vector2(Mathf.Sign(_myRigidbody.velocity.x) * _playerScale, 1f * _playerScale);
+        }
     }
 }

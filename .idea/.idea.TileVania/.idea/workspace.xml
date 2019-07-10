@@ -2,84 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c135d00f-62a0-4bf4-9e34-f8754810f8c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/GridInformation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/GridInformation/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/LICENSE.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-master/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,14 +18,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="259">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
-                <marker date="1562757689963" expanded="true" signature="6:64" ph="..." />
-                <marker date="1562757689963" expanded="true" signature="101:596" ph="{...}" />
-                <marker date="1562757689963" expanded="true" signature="211:274" ph="{...}" />
-                <marker date="1562757689963" expanded="true" signature="332:344" ph="{...}" />
-                <marker date="1562757689963" expanded="true" signature="368:594" ph="{...}" />
+                <marker date="1562758977533" expanded="true" signature="6:78" ph="..." />
+                <marker date="1562758977533" expanded="true" signature="115:1078" ph="{...}" />
+                <marker date="1562758977533" expanded="true" signature="276:340" ph="{...}" />
+                <marker date="1562758977533" expanded="true" signature="398:447" ph="{...}" />
+                <marker date="1562758977533" expanded="true" signature="471:710" ph="{...}" />
+                <marker date="1562758977533" expanded="true" signature="741:1076" ph="{...}" />
+                <marker date="1562758977533" expanded="true" signature="961:1070" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -212,12 +140,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562756018768</updated>
-      <workItem from="1562756020536" duration="1209000" />
+      <workItem from="1562756020536" duration="2300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1209000" />
+    <option name="totallyTimeSpent" value="2300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,14 +213,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="259">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <marker date="1562757689963" expanded="true" signature="6:64" ph="..." />
-            <marker date="1562757689963" expanded="true" signature="101:596" ph="{...}" />
-            <marker date="1562757689963" expanded="true" signature="211:274" ph="{...}" />
-            <marker date="1562757689963" expanded="true" signature="332:344" ph="{...}" />
-            <marker date="1562757689963" expanded="true" signature="368:594" ph="{...}" />
+            <marker date="1562758977533" expanded="true" signature="6:78" ph="..." />
+            <marker date="1562758977533" expanded="true" signature="115:1078" ph="{...}" />
+            <marker date="1562758977533" expanded="true" signature="276:340" ph="{...}" />
+            <marker date="1562758977533" expanded="true" signature="398:447" ph="{...}" />
+            <marker date="1562758977533" expanded="true" signature="471:710" ph="{...}" />
+            <marker date="1562758977533" expanded="true" signature="741:1076" ph="{...}" />
+            <marker date="1562758977533" expanded="true" signature="961:1070" ph="{...}" />
           </folding>
         </state>
       </provider>
