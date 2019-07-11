@@ -4063,6 +4063,11 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6199146026075566210, guid: 67fb4404fe369e24da17a66befdc1d96,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 614048632491023332, guid: 67fb4404fe369e24da17a66befdc1d96,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4138,3 +4143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01f52fe84fe574d4db1405f8c17b8232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 5
+  jumpSpeed: 25
