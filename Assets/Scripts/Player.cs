@@ -7,11 +7,11 @@ public class Player : MonoBehaviour
     // Config
     [SerializeField] private float runSpeed = 5f;
     [SerializeField] private float jumpSpeed = 5f;
-    
+
     // State
     private int _playerScale = 3;
-    bool isAlive = true;
-    
+    private bool _isAlive = true;
+
     //Cached component references
     private Rigidbody2D _myRigidbody;
     private Animator _myAnimator;
@@ -39,12 +39,12 @@ public class Player : MonoBehaviour
         var playerHasHorizontalSpeed = Math.Abs(_myRigidbody.velocity.x) > Mathf.Epsilon;
         _myAnimator.SetBool("Running", playerHasHorizontalSpeed);
     }
-    
+
     private void Jump()
     {
         if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
-            Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
+            var jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
             _myRigidbody.velocity += jumpVelocityToAdd;
         }
     }
