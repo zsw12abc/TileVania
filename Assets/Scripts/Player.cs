@@ -56,13 +56,12 @@ public class Player : MonoBehaviour
         {
             var jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
             _myRigidbody.velocity += jumpVelocityToAdd;
-            Debug.Log("Jump");
         }
     }
 
     private void ClimbLadder()
     {
-        if (!_myCollider2D.IsTouchingLayers(LayerMask.GetMask("Groud")))
+        if (!_myCollider2D.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
             return;
         }
@@ -74,6 +73,8 @@ public class Player : MonoBehaviour
         var playerHasVerticalSpeed = Math.Abs(_myRigidbody.velocity.y) > Mathf.Epsilon;
         _myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
     }
+
+
 
     private void FlipSprite()
     {
