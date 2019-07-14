@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c135d00f-62a0-4bf4-9e34-f8754810f8c6" name="Default Changelist" comment="" />
+    <list default="true" id="c135d00f-62a0-4bf4-9e34-f8754810f8c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +16,11 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
-                <marker date="1563000486641" expanded="true" signature="2220:2226" ph="{...}" />
-                <marker date="1563000486641" expanded="true" signature="2257:2622" ph="{...}" />
-                <marker date="1563000486641" expanded="true" signature="2477:2616" ph="{...}" />
+                <marker date="1563002265714" expanded="true" signature="2231:2596" ph="{...}" />
+                <marker date="1563002265714" expanded="true" signature="2451:2590" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,11 +119,13 @@
       <workItem from="1562996572742" duration="1498000" />
       <workItem from="1562999335486" duration="441000" />
       <workItem from="1563000637845" duration="603000" />
+      <workItem from="1563019035230" duration="600000" />
+      <workItem from="1563060193658" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7284000" />
+    <option name="totallyTimeSpent" value="9099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,12 +187,11 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
-            <marker date="1563000486641" expanded="true" signature="2220:2226" ph="{...}" />
-            <marker date="1563000486641" expanded="true" signature="2257:2622" ph="{...}" />
-            <marker date="1563000486641" expanded="true" signature="2477:2616" ph="{...}" />
+            <marker date="1563002265714" expanded="true" signature="2231:2596" ph="{...}" />
+            <marker date="1563002265714" expanded="true" signature="2451:2590" ph="{...}" />
           </folding>
         </state>
       </provider>

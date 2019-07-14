@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D _myRigidbody;
     private Animator _myAnimator;
     private Collider2D _myCollider2D;
+    private float _gravityScaleAtStart;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
         _myRigidbody = GetComponent<Rigidbody2D>();
         _myAnimator = GetComponent<Animator>();
         _myCollider2D = GetComponent<Collider2D>();
+        _gravityScaleAtStart = _myRigidbody.gravityScale;
     }
 
     // Update is called once per frame
@@ -63,17 +65,19 @@ public class Player : MonoBehaviour
     {
         if (!_myCollider2D.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
+            _myAnimator.SetBool("Climbing", false);
+            _myRigidbody.gravityScale = _gravityScaleAtStart;
             return;
         }
 
         var controlThrowY = CrossPlatformInputManager.GetAxis("Vertical") * runSpeed; // -1 ~ +1
         var climbVelocity = new Vector2(_myRigidbody.velocity.x, controlThrowY);
         _myRigidbody.velocity = climbVelocity;
+        _myRigidbody.gravityScale = 0f;
 
         var playerHasVerticalSpeed = Math.Abs(_myRigidbody.velocity.y) > Mathf.Epsilon;
         _myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
     }
-
 
 
     private void FlipSprite()
