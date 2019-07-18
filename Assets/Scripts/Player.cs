@@ -38,7 +38,6 @@ public class Player : MonoBehaviour
         {
             return;
         }
-
         Run();
         Jump();
         FlipSprite();

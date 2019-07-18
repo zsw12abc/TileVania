@@ -138,6 +138,7 @@
             </e>
           </e>
         </e>
+        <e p="LevelExist.cs" t="Include" />
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">
